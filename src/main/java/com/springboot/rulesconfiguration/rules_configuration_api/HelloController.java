@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Autowired
-    NamedParameterJdbcTemplate jdbcTemplate;
+//    @Autowired
+//    NamedParameterJdbcTemplate jdbcTemplate;
 
     @RequestMapping("/")
     String hello() {
